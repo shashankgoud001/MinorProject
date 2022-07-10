@@ -19,7 +19,7 @@
 .welcome-page {
     background-image: url(../assets/images/12.png");
     background-size: 100vw;
-    height: 100vw;
+    height: 50vw;
     position: center center;
     /* position: relative; */
     text-align: center;
@@ -167,7 +167,7 @@ img:hover{
 }
 
 .about {
-    background-image: url("/assets/images/f.png");
+     background-color: #FCEDDA;
     color: #EE4E34;
 }
 
