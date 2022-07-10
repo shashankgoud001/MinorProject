@@ -30,7 +30,7 @@
 .welcome-page .content{
     text-align: center;
     padding: 10vw;
-    font-size: 1.2vw;
+    font-size: 2vw;/**/
 }
 
 .welcome-page .content h1{
@@ -39,7 +39,7 @@
 
 .welcome-page .content .description{
     color: #FCF6F5FF;
-    font-size: 1.3vw;
+    font-size: 2vw;/**/
 }
 
 .welcome-page .content .talkwithusbutton{
@@ -66,18 +66,18 @@
 }
 
 .middle-page .mid-heading{
-    padding-left: 10vw;
+    padding-left: 5vw; /**/
     background: -webkit-linear-gradient(#8000FF,#DE00FF); 
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    font-size: 7vw;
+    font-size: 6vw;
 }
 .middle-page .para{
-    padding-left: 10vw;
+    padding-left: 5vw; /**/
     background: -webkit-linear-gradient(#8000FF,#DE00FF); 
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    font-size: 2vw;
+    font-size: 2vw;/**/
 }
 
 
@@ -119,26 +119,22 @@ img:hover{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
-.middle-page-ending {
-    position: relative;
-}
-.middle-page .left {
-    left: 1%;
-    padding: 0;
-    position: absolute;
+
+.middle-page-ending .right{
+    display: flex;
+    column-gap: 1vw;
+    justify-content: end;
+    flex-wrap: wrap;
 }
 
-.middle-page .right {
-    right: 1%;
-    position: absolute;
-    padding: 5vh;
-}
+
+
 
 .fa-brands {
     padding: 2.5vw;
     font-size: 2vw;
     width: 1.5vw;
-    text-align: center;
+    text-align: end;
     text-decoration: none;
     border-radius: 50%;
 }
@@ -165,9 +161,9 @@ img:hover{
     color: #FD1D1D;
 }
 
-.middle-page .middle-page-ending{
+/* .middle-page .middle-page-ending{
     padding: 20vh;
-}
+} */
 
 .about {
     background-color: #FCEDDA   ;
