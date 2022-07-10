@@ -1,0 +1,355 @@
+/* hr{
+    width: 50rem;
+
+} */
+
+.navbar{
+    height: 100%;
+    padding: 0;
+}
+
+.navbar .container-fluid .navbar-brand img{
+    width: 10vw;
+}
+.navbar .container-fluid{
+    background-color: white;
+    padding: 0;
+}
+
+.welcome-page {
+    background-image: url("/assets/images/12.png");
+    background-size: 100vw;
+    height: 50vw;
+    position: center center;
+    /* position: relative; */
+    text-align: center;
+    color: #FCF6F5FF;
+}
+
+.welcome-page .content{
+    text-align: center;
+    padding: 10vw;
+    font-size: 1.2vw;
+}
+.welcome-page .content .description{
+    color: #FCF6F5FF;
+    font-size: 1.3vw;
+}
+
+.welcome-page .content .talkwithusbutton{
+    border-color: #F96167;
+    color: #FCE77D;
+    background-color: #F96167;
+}
+
+
+.welcome-page .companyname {
+    color: #2BAE66FF;
+}
+
+.welcome-page .talkwithusbutton:hover{
+    border-color: #FCE77D;
+    background-color: #FCE77D;
+    color :#F96167;
+}
+
+
+.middle-page {
+    background-image: url("/assets/images/d.png");
+    background-color: #FFE8F5;
+}
+
+.middle-page .mid-heading{
+    padding-left: 10vh;
+    background: -webkit-linear-gradient(#8000FF,#DE00FF); 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 10vh;
+}
+.middle-page .para{
+    padding-left: 10vh;
+    background: -webkit-linear-gradient(#8000FF,#DE00FF); 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3vh;
+}
+
+
+
+.middle-page .carousel.slide .carousel-inner{
+    width: 30%;
+    height: 30%;
+    left: 40%;
+    right: 40%;
+    border-radius: 50%;
+
+}
+
+.carousel-control-prev-icon {
+    background-image: url("/assets/images/left.png");
+
+}
+
+.carousel-control-next-icon {
+    background-image: url("/assets/images/right.png");
+}
+/* 
+.middle-page .carousel.slide .carousel-inner .carousel-item.active :hover{
+    animation: shake 0.5s;
+} */
+
+img:hover{
+    /* animation: shake 0.5s; */
+    animation: alternate-reverse 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+.middle-page-ending {
+    position: relative;
+}
+.middle-page .left {
+    left: 1%;
+    padding: 0;
+    position: absolute;
+}
+
+.middle-page .right {
+    right: 1%;
+    position: absolute;
+    padding: 5vh;
+}
+
+.fa-brands {
+    padding: 1rem;
+    font-size: 1.1rem;
+    width: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-brands.fa-facebook {
+    color: blue;
+
+}
+
+.fa-brands.fa-youtube {
+    color: red;
+
+}
+
+.fa-brands.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-brands.fa-linkedin {
+    color: #0077b5;
+}
+
+.fa-brands.fa-instagram {
+    color: #FD1D1D;
+}
+
+.middle-page .middle-page-ending{
+    padding: 20vh;
+}
+
+.about {
+    background-image: url("/assets/images/f.png");
+    color: #EE4E34;
+}
+
+.about .heading{
+    font-size: 10vh;
+    padding-left: 10vh;
+}
+
+.about .para{
+    font-size: 3vh;
+    padding-left: 10vh;
+}
+
+.about .tutors {
+    position: relative;
+    display: flex;
+    position: center center;
+}
+
+.about .tutors .left {
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+/* .about .tutors .right {
+    
+} */
+.about .tutors .left img{
+    border-radius: 50%;
+    width: 40vw;
+}
+.about .tutors .left .job{
+    padding-top: 1vw;
+    padding-left: 13vw;
+    font-size: 1.5vw;
+
+}
+
+.about .tutors .right img{
+    border-radius: 50%;
+    width: 40vw;
+}
+.about .tutors .right .job{
+    padding-top: 1vw;
+    padding-left: 15vw;
+    font-size: 1.5vw;
+}
+
+.about .about-ending .icons{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10vw;
+}
+
+
+.about .about-ending .icons>* {
+    flex: 1 1 2vw;
+}
+
+.fa-solid.fa-image {
+    font-size: 3vw;
+}
+.fa-solid.fa-spinner{
+    font-size: 3vw;
+}
+.fa-solid.fa-paintbrush{
+    font-size: 3vw;
+}
+.fa-solid.fa-gear{
+    font-size: 3vw;
+}
+.fa-solid.fa-grip-vertical{
+    font-size: 3vw;
+}
+
+.about .about-ending .icons .labeling{
+    font-size: 1vw;
+}
+
+.contact-page{
+    text-align: center;
+}
+
+
+.contact-page .heading{
+    font-size: 10vh;
+}
+.contact-page .para{
+    font-size: 3vh;
+}
+.contact-page .sub-heading{
+    font-size: 4vh;
+}
+
+.fa-solid.fa-message{
+    font-size: 6vw;
+}
+.fa-solid.fa-location-dot{
+    font-size: 6vw;
+}
+.contact-page .icons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-page .icons>*{
+    flex: 1 1 1vw;
+}
+
+ .contact-page {
+    color: #533549;
+    background: -webkit-linear-gradient(#F6B042,#F9ED4E);
+
+}
+
+/*
+.contact-page {
+    background: #533549;
+     background: -webkit-linear-gradient(#F6B042,#F9ED4E); 
+    
+}
+
+.contact-page .heading{
+    background: -webkit-linear-gradient(#F6B042,#F9ED4E);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+} 
+.contact-page .para{
+    background: -webkit-linear-gradient(#F6B042,#F9ED4E);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+} 
+.contact-page .sub-heading{
+    background: -webkit-linear-gradient(#F6B042,#F9ED4E);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+} 
+.contact-page .icons{
+    background: -webkit-linear-gradient(#F6B042,#F9ED4E);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}  */
+
+/* .contact-page {
+    background-color: #072C50;
+} */
+
+/* .contact-page .heading{
+    background: -webkit-linear-gradient(#B88746,#FDF5A6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.contact-page .para{
+    background: -webkit-linear-gradient(#B88746,#FDF5A6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.contact-page .sub-heading{
+    background: -webkit-linear-gradient(#B88746,#FDF5A6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.contact-page .icons{
+    background: -webkit-linear-gradient(#B88746,#FDF5A6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+} */
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.footer .fa-brands.fa-youtube {
+    color: white;
+
+}
+.footer .fa-brands.fa-linkedin {
+    color: white;
+}
+
+.footer .fa-brands.fa-instagram {
+    color: white;
+}
+
