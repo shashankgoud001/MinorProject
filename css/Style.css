@@ -19,7 +19,7 @@
 .welcome-page {
     background-image: url(../assets/images/12.png");
     background-size: 100vw;
-    height: 50vw;
+    height: 100vw;
     position: center center;
     /* position: relative; */
     text-align: center;
