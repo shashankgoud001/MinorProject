@@ -17,7 +17,7 @@
 }
 
 .welcome-page {
-    background-image: url(../assets/images/12.png");
+    background-image: url(.../assets/images/12.png");
     background-size: 100vw;
     height: 50vw;
     position: center center;
@@ -55,7 +55,7 @@
 
 
 .middle-page {
-    background-image: url("../assets/images/d.png");
+    background-image: url(".../assets/images/d.png");
     background-color: #FFE8F5;
 }
 
@@ -86,12 +86,12 @@
 }
 
 .carousel-control-prev-icon {
-    background-image: url("../assets/images/left.png");
+    background-image: url(".../assets/images/left.png");
 
 }
 
 .carousel-control-next-icon {
-    background-image: url("../assets/images/right.png");
+    background-image: url(".../assets/images/right.png");
 }
 /* 
 .middle-page .carousel.slide .carousel-inner .carousel-item.active :hover{
