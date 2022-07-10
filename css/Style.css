@@ -66,14 +66,14 @@
 }
 
 .middle-page .mid-heading{
-    padding-left: 5vw; /**/
+    padding-left: 3vh; /**/
     background: -webkit-linear-gradient(#8000FF,#DE00FF); 
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-size: 6vw;
 }
 .middle-page .para{
-    padding-left: 5vw; /**/
+    padding-left: 3vh; /**/
     background: -webkit-linear-gradient(#8000FF,#DE00FF); 
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -172,12 +172,12 @@ img:hover{
 
 .about .heading{
     font-size: 7vw;
-    padding-left: 10vh;
+    padding-left: 3vh;
 }
 
 .about .para{
     font-size: 2vw;
-    padding-left: 10vh;
+    padding-left: 3vh;
 }
 
 .about .tutors {
